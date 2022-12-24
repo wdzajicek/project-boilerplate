@@ -1,6 +1,6 @@
 # Project Boilerplate
 
-**GitHub Pages:** <https://wdzajicek.github.io/javascript/>
+**GitHub Pages:** <https://wdzajicek.github.io/project-boilerplate/>
 
 This a starting point for creating new GitHub projects.
 
