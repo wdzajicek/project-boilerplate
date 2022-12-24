@@ -1,2 +1,2 @@
     <!-- custom compiled and minified javascript -->
-    <script src="{% if jekyll.environment == 'ghPages' %}/javascript/{% else %}{{ site.baseurl }}{% endif %}assets/js/dist/main{% if site.data.hash %}.{{ site.data.hash }}{% endif %}.bundle.js" defer></script>
+    <script src="{% if jekyll.environment == 'ghPages' %}{{ site.gh_pages_url_path }}{% else %}{{ site.baseurl }}{% endif %}assets/js/dist/main{% if site.data.hash %}.{{ site.data.hash }}{% endif %}.bundle.js" defer></script>
